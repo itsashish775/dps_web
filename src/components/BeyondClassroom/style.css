@@ -1,0 +1,76 @@
+.beyondClassroom {
+    width: 1920px;
+    height: 899px;
+    background-color: #014828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.beyondClassroom .heading {
+    width: 657px;
+    height: 71px;
+    color: #FFFFFF;
+}
+
+.beyondClassroom .heading .text {
+    font-family: "Kameron";
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 71.22px;
+    text-align: center;
+
+}
+
+
+.beyondClassroom .cardSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.beyondClassroom .cardSection .card {
+    width: 353px;
+    height: 471px;
+
+    border: 1px solid white;
+    background-color: #FFFFFF;
+
+
+}
+
+.beyondClassroom .cardSection .card .image {
+    width: 353px;
+    height: 310px;
+
+
+}
+
+.beyondClassroom .cardSection .card .image img {
+    width: 100%;
+}
+
+.beyondClassroom .cardSection .card .cardDetails {
+    padding: 20px;
+}
+
+.beyondClassroom .cardSection .card .cardDetails .boldText {
+    font-family: "Kameron";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.12px;
+    text-align: left;
+
+}
+
+.beyondClassroom .cardSection .card .cardDetails .smallText {
+    font-family: "Kameron";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.93px;
+    text-align: left;
+
+}

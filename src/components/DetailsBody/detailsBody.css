@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+
+.detailWrapper {
+    width: 1920px;
+    height: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #F9F9F9;
+    background-image: url("../../assets/images/Clip\ path\ group.png");
+    background-repeat: no-repeat;
+}
+
+.detailWrapper .details .headings {
+    font-family: "Kameron";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47.48px;
+    text-align: left;
+
+}
+
+.detailWrapper .details .headings span {
+    font-family: "Kameron";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47.48px;
+    text-align: left;
+
+}
+
+.detailWrapper .details .description {
+    width: 727px;
+    height: 739px;
+    top: 1177px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.detailWrapper .details .description .descriptionText {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+
+}
+
+.detailWrapper .details .description .descriptionText span {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #014828;
+
+}
+
+.detailWrapper .rectangle6 {
+    width: 960px;
+    height: 811px;
+    gap: 0px;
+    border-radius: 36px 0px 0px 36px;
+    opacity: 0px;
+    background-color: #FFBB04;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.detailWrapper .rectangle6 .image {
+    width: 713px;
+    height: 717px;
+    border-radius: 36px 0px 0px 36px;
+    margin-left: 40px;
+    
+}
+.detailWrapper .rectangle6 .image img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 36px 0px 0px 36px;
+}

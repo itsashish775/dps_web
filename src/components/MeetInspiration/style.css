@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.meetInspiration {
+    width: 1920px;
+    height: 803px;
+
+    background-color: #01482826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.meetInspiration .heading {
+    /* width: 1182px; */
+    height: 71px;
+    font-family: "Kameron";
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 71.22px;
+    text-align: center;
+
+}
+
+.meetInspiration .cardAndDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.meetInspiration .cardAndDetails .card {
+    width: 322px;
+    height: 487px;
+    position: relative;
+
+}
+
+.meetInspiration .cardAndDetails .card .verticalTag {
+    height: 60px;
+    width: 243px;
+    position: absolute;
+    background-color: #014828;
+    rotate: 90deg;
+    z-index: 2;
+    top: 90px;
+    left: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.meetInspiration .cardAndDetails .card .verticalTag .text {
+    font-family: "Kameron";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.66px;
+    color: #FFFFFF;
+
+}
+
+.card-blur {
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 1px);
+    background-color: #014828CC;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+    top: 0
+}
+
+.card:hover .card-blur {
+    opacity: 0.8;
+}
+
+.info {
+    position: absolute;
+    padding-left: 20px;
+    transform: translateY(250px);
+
+    transition: transform 1s cubic-bezier(.31, 1.21, .64, 1.02);
+    display: none;
+    color: #FFFFFF;
+    top: 0;
+    width: 225px;
+    height: 276px;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: left;
+    
+
+}
+
+.card:hover .info {
+    transform: translateY(0px);
+    display: block;
+    z-index: 4;
+    padding: 25px 0 0 25px;
+}
+
+.meetInspiration .cardAndDetails .card img {
+    width: 100%;
+}
+
+.meetInspiration .cardAndDetails .details {
+    width: 457px;
+    height: 487px;
+
+}
+
+.meetInspiration .cardAndDetails .details .text {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+
+}

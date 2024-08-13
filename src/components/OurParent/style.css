@@ -1,0 +1,76 @@
+.ourParent {
+    width: 1920px;
+    height: 820.17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url("../../assets/images/Group\ 33.png");
+
+
+}
+
+.ourParent .heading {
+    width: 652px;
+    height: 71px;
+
+
+}
+
+
+
+.ourParent .heading .text {
+    font-family: "Kameron";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 71.22px;
+    text-align: center;
+
+}
+
+.ourParent .cardSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ourParent .cardSection .card {
+    width: 799px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F9F9F9;
+    position: relative;
+
+}
+
+.ourParent .cardSection .card .quots {
+    position: absolute;
+    top: 30px;
+    left: 30px
+}
+
+.ourParent .cardSection .card .name {
+    font-family: "Kameron";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.12px;
+    text-align: center;
+
+}
+
+.ourParent .cardSection .card .profileDesc {
+    width: 711px;
+    height: 190px;
+    font-family: "Inter";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.57px;
+    text-align: center;
+
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+.banner {
+    width: 1920px;
+    height: 965px;
+    /* gap: 0px;
+    border: 1px 0px 0px 0px;
+     */
+}
+
+.banner .bannerImage {
+    background-image: url("/src/assets/images/Group\ 26.png");
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 764px;
+    gap: 0px;
+    
+    position: relative;
+
+}
+
+.banner .bannerImage .bannerTextLayout {
+    position: absolute;
+    width: 562px;
+    height: 122px;
+    top: 348px;
+    left: 679px;
+    gap: 0px;
+    
+    color: #ffffff;
+
+}
+
+.banner .bannerImage .bannerTextLayout .bannerText {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60.51px;
+    text-align: center;
+
+}
+
+.banner .bannerImage .logo {
+    position: absolute;
+    width: 589px;
+    height: 78px;
+    top: 40px;
+    left: 200px;
+    gap: 0px;
+    
+
+}
+
+.banner .bannerImage .bannerFooter {
+    position: absolute;
+    width: 1920px;
+    height: 201px;
+    top: 764px;
+    gap: 0px;
+    
+    background-color: #014828;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.bannerFooter .records {
+    width: 119px;
+    height: 99px;
+
+    border: 1px 0px 0px 0px;
+    color: #ffffff;
+
+}
+
+.bannerFooter .records .recordCount {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+
+
+
+}
+
+.bannerFooter .records .recordText {
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    text-align: center;
+    text-transform: capitalize;
+
+}

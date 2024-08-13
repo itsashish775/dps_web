@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.detailAboutWrapper {
+    width: 1920px;
+    height: 881px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    background-color: #F9F9F9;
+}
+
+.detailAboutWrapper .detailAbout .headings {
+    font-family: "Kameron";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47.48px;
+    text-align: left;
+}
+
+.detailAboutWrapper .detailAbout .headings span {
+    font-family: "Kameron";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.11px;
+    text-align: left;
+
+}
+
+.detailAboutWrapper .detailAbout .description {
+    width: 881px;
+    height: 555px
+}
+
+.detailAboutWrapper .detailAbout .description .descriptionText {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+
+
+}
+
+.detailAboutWrapper .detailAbout .description .descriptionText span {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #014828;
+}
+
+.detailAboutWrapper .rectangle6 {
+    width: 881px;
+    height: 700px;
+    position: relative;
+    
+    
+}
+.detailAboutWrapper .rectangle6 .positionBox {
+    margin-left: 70px;
+    position: relative;
+}
+
+.detailAboutWrapper .rectangle6 .yellowBox {
+    position: absolute;
+    width: 304px;
+    height: 273px;
+    border-radius: 35px;
+    background-color: #FFBB04;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.detailAboutWrapper .rectangle6 .imageBox {
+    width: 615px;
+    height: 480px;
+    z-index: 3;
+position: absolute;
+top: 55px;
+left: 40px;
+
+}
+
+.detailAboutWrapper .rectangle6 .imageBox img {
+    width: 100%;
+}
+
+.detailAboutWrapper .rectangle6 .greenBox {
+    position: absolute;
+    width: 548px;
+    height: 497px;
+    background-color: #014828;
+    border-radius: 35px 0px 0px 35px;
+    top: 170px;
+    left: 260px;
+    z-index: 0;
+
+}
